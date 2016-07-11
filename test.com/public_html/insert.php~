@@ -5,7 +5,7 @@
     </head>
     <body>
 		<div class="maindiv">
-		
+		<!--HTML form -->
 			<div class="form_div">
 				<div class="title"><h2>Insert Data In Database Using PHP.</h2></div>
    
