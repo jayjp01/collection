@@ -1,0 +1,1195 @@
+{
+"AdOutline": {
+"adId":"1111",
+"city_id": "",
+"city": "Bangalore",
+"ad_type": "1",
+"res_com_agr": "1",
+"project_id": "",
+"project_unit_id": "",
+"user_email": "",
+"user_type": "2",
+"login_status": false,
+"user_name":"",
+"user_mobile":"",
+"freeOrPremiumFlag": "free"
+},
+"LocalitySection": {
+"show": true,
+"subsections": {
+"Project_ID": {
+"show": false,
+"type": "input",
+"value": ""
+},
+"Project_Name": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Project Name"
+},
+"Project_Unit_Type": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Unit Type"
+},
+"Street_Address": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Essential information to show on map"
+},
+"Locality": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Locality"
+},
+"City": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "City"
+},
+"Lat": {
+"show": true,
+"type": "input",
+"value": ""
+},
+"Long": {
+"show": true,
+"type": "input",
+"value": ""
+}
+}
+},
+"AboutPropertySection": {
+"show": true,
+"subsections": {
+"Property_Type": {
+"options": {
+"Commercial": {
+"Office": {
+"style": "",
+"show": true,
+"type": "boolean",
+"value": false
+},
+"Shop": {
+"style": "",
+"show": true,
+"type": "boolean",
+"value": false
+},
+"Complex": {
+"style": "",
+"show": true,
+"type": "boolean",
+"value": false
+},
+"Plot": {
+"style": "",
+"show": true,
+"type": "boolean",
+"value": false
+}
+},
+"Residential": {
+"Apartment": {
+"style": "",
+"show": true,
+"type": "boolean",
+"value": false
+},
+"Villa": {
+"style": "",
+"show": true,
+"type": "boolean",
+"value": false
+},
+"Builder Floor": {
+"style": "",
+"show": true,
+"type": "boolean",
+"value": false
+},
+"Plot": {
+"style": "",
+"show": true,
+"type": "boolean",
+"value": false
+}
+},
+"Agricultural": {
+"Land": {
+"style": "",
+"show": true,
+"type": "boolean",
+"value": false
+}
+}
+},
+"show": true,
+"type": "singleSelect",
+"value": ""
+},
+"Property_Details": {
+"subsections": {
+"bhk": {
+"options": {
+"1": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"2": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"3": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"4": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"4+": {
+"show": true,
+"type": "boolean",
+"value": false
+}
+},
+"show": true,
+"type": "singleselect",
+"value": ""
+},
+"bathroom": {
+"options": {
+"1": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"2": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"3": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"4": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"4+": {
+"show": true,
+"type": "boolean",
+"value": false
+}
+},
+"value": "",
+"show": true,
+"type": "singleselect",
+"selected_values": ""
+},
+"balcony": {
+"options": {
+"1": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"2": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"3": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"4": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"5": {
+"show": true,
+"type": "boolean",
+"value": false
+}
+},
+"value": "",
+"show": true,
+"type": "singleselect",
+"selected_values": ""
+}
+},
+"show": true,
+"type": "composite"
+},
+"Property_Area": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Area (in sq.ft.)"
+},
+"Selling_Price": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Sale Price"
+},
+"Rent_Price": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Rent Price"
+},
+"Deposit_Price": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Deposit"
+},
+"Rate_Per": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Rate / Sq.Ft"
+},
+"Available_From": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Available From"
+},
+"Floor_Number": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Floor Number"
+}
+}
+},
+"AmenitiesSection": {
+"show": false,
+"subsections": {
+"Utility": {
+"options": {
+"Electricity_Backup": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "24Hr Backup Electricity",
+"class": "icon-electricitybackup"
+},
+"Wifi": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Wifi",
+"class": "icon-signal"
+},
+"Gas_Pipeline": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Gas Pipeline",
+"class": "icon-gas-pipeline"
+},
+"Rain_Water_Harvesting": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Rain Water Harvesting",
+"class": "icon-rain-water-harvesting"
+}
+},
+"show": true,
+"type": "multiselect",
+"selected_values": "",
+"label": "Utility"
+},
+"Safety_Security": {
+"options": {
+"Gated_Community": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Gated Community",
+"class": "icon-gated-community"
+},
+"Intercom": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Intercom",
+"class": "icon-intercom"
+},
+"CC_TV": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "CCTV Cameras",
+"class": "icon-cctv"
+},
+"Fire_Safety": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Fire Safety",
+"class": "icon-fire-safety"
+}
+},
+"show": true,
+"type": "multiselect",
+"selected_values": "",
+"label": "Safety and Security"
+},
+"Convenience": {
+"options": {
+"Maintenance_Staff": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Maintenance Staff",
+"class": "icon-maintenance-staff"
+},
+"Library": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Library",
+"class": "icon-library"
+},
+"Community_Hall": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Community Hall",
+"class": "icon-community-hall"
+},
+"Lift": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Lift",
+"class": "icon-lift"
+},
+"Covered_Car_Parking": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Covered Car Parking",
+"class": "icon-covered-car-parking"
+},
+"Car_Parking": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Car Parking",
+"class": "icon-car-parking"
+},
+"Convenience": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Convenience Store",
+"class": "icon-shopping-malls"
+},
+"Basement_Car_Parking": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Basement Car Parking",
+"class": "icon-basement-car-parking"
+},
+"AC_Lobby": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "AC Lobby",
+"class": "icon-ac-lobby"
+}
+},
+"show": true,
+"type": "multiselect",
+"selected_values": "",
+"label": "Convenience"
+},
+"Health": {
+"options": {
+"Landscape_Garden": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Landscaped Garden",
+"class": "icon-landscaped-garden"
+},
+"Swimming_Pool": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Swimming Pool",
+"class": "icon-swimming-pool"
+},
+"Health_Facilities": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Health Facilities",
+"class": "icon-health-facilities"
+},
+"Tennis Court": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Tennis Court",
+"class": "icon-tennis-court"
+},
+"Badminton_Court": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Badminton Court",
+"class": "icon-badminton-court"
+},
+"Basket_Ball_Court": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Basket Ball Court",
+"class": "icon-basket-ball-court"
+},
+"Gymnasium": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Gymnasium",
+"class": "icon-gymnasium"
+},
+"Jogging_Track": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Jogging Track",
+"class": "icon-jogging-track2"
+}
+},
+"show": true,
+"type": "multiselect",
+"selected_values": "",
+"label": "Health"
+},
+"Entertainment": {
+"options": {
+"Club_House": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Club House",
+"class": "icon-club-house"
+},
+"Cafeteria": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Cafeteria",
+"class": "icon-cafeteria"
+},
+"Indoor_Games": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Indoor Games",
+"class": "icon-indoor-games"
+},
+"Play_Area": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Play Area",
+"class": "icon-play-area"
+}
+},
+"show": true,
+"type": "multiselect",
+"selected_values": "",
+"label": "Entertainment"
+}
+}
+},
+"AmenitiesSectionPriorityOrder": {
+"show": true,
+"subsections": {
+"residential": {
+"options": {
+"Lift": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Lift",
+"class": "icon-lift"
+},
+"Gymnasium": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Gymnasium",
+"class": "icon-gymnasium"
+},
+"Swimming_Pool": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Swimming Pool",
+"class": "icon-swimming-pool"
+},
+"Club_House": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Club House",
+"class": "icon-club-house"
+},
+"Gated_Community": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Gated Community",
+"class": "icon-gated-community"
+},
+"Car_Parking": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Car Parking",
+"class": "icon-car-parking"
+},
+"Play_Area": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Play Area",
+"class": "icon-play-area"
+},
+"Maintenance_Staff": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Maintenance Staff",
+"class": "icon-maintenance-staff"
+},
+"CCTV_Cameras": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "CCTV Cameras",
+"class": "icon-cctv"
+},
+"24Hr_Backup_Electricity": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "24Hr Backup Electricity",
+"class": "icon-electricitybackup"
+},
+
+"Gas_Pipeline": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Gas Pipeline",
+"class": "icon-gas-pipeline"
+},
+"Fire_Safety": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Fire Safety",
+"class": "icon-fire-safety"
+},
+
+
+
+
+
+"Earthquake_Resistant": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Earthquake Resistant",
+"class": "icon-earthquake-resistant"
+},
+
+
+"Jogging_Track": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Jogging Track",
+"class": "icon-jogging-track2"
+},
+
+
+"Landscaped_Garden": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Landscaped Garden",
+"class": "icon-landscaped-garden"
+},
+"Wifi": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Wifi",
+"class": "icon-signal"
+},
+"Covered_Car_Parking": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Covered Car Parking",
+"class": "icon-covered-car-parking"
+},
+"Basement_Car_Parking": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Basement Car Parking",
+"class": "icon-basement-car-parking"
+},
+
+"Intercom": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Intercom",
+"class": "icon-intercom"
+},
+"Rain_Water_Harvesting": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Rain Water Harvesting",
+"class": "icon-rain-water-harvesting"
+},
+
+"Indoor_Games": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Indoor Games",
+"class": "icon-indoor-games"
+},
+"Health_Facilities": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Health Facilities",
+"class": "icon-health-facilities"
+},
+
+"Cafeteria": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Cafeteria",
+"class": "icon-cafeteria"
+},
+"Basket_Ball_Court": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Basket Ball Court",
+"class": "icon-basket-ball-court"
+},
+"AC_Lobby": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "AC Lobby",
+"class": "icon-ac-lobby"
+},
+"Badminton_Court": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Badminton Court",
+"class": "icon-badminton-court"
+},
+"Waste_Disposal": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Waste Disposal",
+"class": "icon-waste-disposal"
+},
+"Tennis_Court": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Tennis Court",
+"class": "icon-tennis-court"
+},
+"Community_Hall": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Community Hall",
+"class": "icon-community-hall"
+},
+"Convenience_Store": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Convenience Store",
+"class": "icon-shopping-malls"
+},
+"Library": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Library",
+"class": "icon-library"
+}
+}
+},
+"commercial": {
+"options": {
+"Fire_Alarm": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Fire Alarm",
+"class": "icon-fire-alarm"
+},
+"Intercom_Facility": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Intercom Facility",
+"class": "icon-intercom"
+},
+"Power_Backup": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Power Backup",
+"class": "icon-electricitybackup"
+},
+"High_Speed_Internet": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "High Speed Internet",
+"class": "icon-high-speed-internet-access"
+},
+"Security_Personnel": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Security Personnel",
+"class": "icon-security-personnel"
+},
+"Conference_Room": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Conference Room",
+"class": "icon-conference-room"
+},
+"Lift": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Lift",
+"class": "icon-lift"
+},
+"Reserved_Parking": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Reserved Parking",
+"class": "icon-reserved-car-parking"
+},
+"Service_Lift": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Service Lift",
+"class": "icon-goods-lift"
+},
+"Visitor_Parking": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Visitor Parking",
+"class": "icon-visitors-car-parking"
+},
+"Centrally_Air_Conditioned": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Centrally Air Conditioned",
+"class": "icon-centralised-ac"
+},
+"ATM": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "ATM",
+"class": "icon-atm-centre"
+},
+"Bank_Attached_Property": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Bank Attached Property",
+"class": "icon-bank-attached-property"
+},
+"Maintenance_Staff": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Maintenance Staff",
+"class": "icon-maintenance-staff"
+},
+"Waste_Disposal": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Waste Disposal",
+"class": "icon-waste-disposal"
+},
+"Food_Court": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Food Court",
+"class": "icon-cafeteria"
+},
+"Day_Care_Center": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Day Care Center",
+"class": "icon-baby-day-care"
+},
+"GYM": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "GYM",
+"class": "icon-gymnasium"
+},
+"Indoor_Games_Room": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Indoor Games Room",
+"class": "icon-indoor-games"
+}
+}
+}
+}
+},
+"UnitDetailsSection": {
+"show": true,
+"subsections": {
+"Unit": {
+"subsections": {
+"Tower": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Tower"
+},
+"Unit_No": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Unit No"
+}
+}
+},
+"Unit_Views": {
+"options": {
+"Pool": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Pool",
+"class" : "icon-swimming-pool"
+},
+"Garden_Facing": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Garden",
+"class" : "icon-landscaped-garden"
+},
+"Lake_View": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Lake",
+"class" : "icon-club-house"
+},
+"Road_facing": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Road",
+"class" : "icon-plot"
+}
+},
+"show": true,
+"type": "multiselect",
+"selected_values": ""
+},
+"Furnishing": {
+"subsections": {
+"furnish_type": {
+"options": {
+"Furnish": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Furnish"
+},
+"Semi_Furnished": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Semi Furnished"
+},
+"Unfurnished": {
+"show": true,
+"type": "boolean",
+"value": false,
+"label": "Unfurnished"
+}
+},
+"show": true,
+"type": "singleselect",
+"selected_values": ""
+},
+"furnish_items": {
+"residential": {
+"options": {
+"Air_Conditioner": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-air-condition-1",
+"label": "Air Conditioner"
+},
+"Beds": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-beds",
+"label": "Beds"
+},
+"Sofa": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-sofa",
+"label": "Sofa"
+},
+"Refrigerator": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-refrigerator",
+"label": "Refrigerator"
+},
+"Washing_Machine": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-washing-machine",
+"label": "Washing Machine"
+},
+"Wardrobes": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-wardrobes",
+"label": "Wardrobes"
+},
+"Dining_Table": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-dining-table",
+"label": "Dining Table"
+},
+"Stove": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-stove",
+"label": "Stove"
+},
+"TV": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-tv",
+"label": "TV"
+},
+"Water_Filter": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-water-purifier2",
+"label": "Water Filter"
+},
+"Microwave": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-microwave-oven",
+"label": "Microwave"
+},
+"Dishwasher": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-dishwasher2-1",
+"label": "Dishwasher"
+}
+}
+},
+"commercial": {
+"options": {
+"Cubicle": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-cubicle",
+"label": "Cubicle"
+},
+"Chairs": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-chair",
+"label": "Chairs"
+},
+"Air_Conditioner": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-air-condition-1",
+"label": "Air Conditioner"
+},
+"Storage_Cupboards": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-storage-cupboards",
+"label": "Storage Cupboards"
+},
+"Electrical_Fittings": {
+"show": true,
+"type": "boolean",
+"value": false,
+"class": "icon-electrical-fittings",
+"label": "Electrical Fittings"
+}
+}
+}
+},
+"show": true,
+"type": "multiselect",
+"selected_values": ""
+}
+}
+}
+},
+"AdDescriptionSection": {
+"show": true,
+"subsections": {
+"Ad_Title": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Title goes here ..  "
+},
+"Ad_Description": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Description goes here .. "
+}
+}
+},
+"ImagesSection": {
+"show": true,
+"subsections": {
+"img": [],
+"floor": []
+}
+},
+"PGFlatmatesSection": {
+"show": true,
+"subsections": {
+"Gender": {
+"options": {
+"Male": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"Female": {
+"show": true,
+"type": "boolean",
+"value": false
+}
+},
+"show": true,
+"type": "singleselect",
+"value": "Male"
+},
+"Type": {
+"options": {
+"Student": {
+"show": true,
+"type": "boolean",
+"value": false
+},
+"Working": {
+"show": true,
+"type": "boolean",
+"value": false
+}
+},
+"show": true,
+"type": "singleselect",
+"value": ""
+},
+"Max_Occupant": {
+"show": true,
+"type": "input",
+"value": "",
+"placeholder": "Max Occupant"
+}
+}
+}
+}
